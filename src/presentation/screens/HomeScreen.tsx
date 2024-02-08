@@ -1,10 +1,11 @@
 import React from 'react';
 import {Text, View} from 'react-native';
+import AgentsComponent from '../components/AgentsComponent';
 
 function HomeScreen() {
   return (
     <View>
-      <Text>HomeScreen</Text>
+      <AgentsComponent/>
     </View>
   );
 }
